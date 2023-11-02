@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body class="bg-light">
+    <div class="container mt-4 w-75">
+      <div class="card">
+        <div class="card-header bg-white">
+          <h1 class="card-title font-weight-bold">Todo App</h1>
+        </div>
+        <div class="card-body">
+          <div class="container">
+            <form action="">
+              <div class="row">
+                <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                  <label for="todoId" class="col-form-label font-weight-bold"
+                    >Enter your todo item</label
+                  >
+                  <input
+                    type="text"
+                    name="todoId"
+                    id="todoId"
+                    class="form-control"
+                  />
+                </div>
+                <div class="col-3">
+                  <button id="addBtnId" class="btn btn-primary col-lg-3">
+                    Add
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="mt-4">
+            <h4 class="text-warning">Todo List</h4>
+            <div>
+              <ul id="todoulId" class="list-group">
+                <!-- <li class="list-group-item list-group-item-primary">
+                  Study<a
+                    href=""
+                    class="float-right text-danger font-weight-bold"
+                    >X</a
+                  >
+                </li>
+                <li class="list-group-item list-group-item-primary">
+                  Shopping<a
+                    href=""
+                    class="float-right text-danger font-weight-bold"
+                    >X</a
+                  >
+                </li>
+                <li class="list-group-item list-group-item-primary">
+                  Travel<a
+                    href=""
+                    class="float-right text-danger font-weight-bold"
+                    >X</a
+                  >
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
